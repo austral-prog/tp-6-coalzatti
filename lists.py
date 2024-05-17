@@ -8,7 +8,7 @@ def remove_elements(list_to_remove_elements):
         del list_to_remove_elements[5]
         del list_to_remove_elements[0]
         return list_to_remove_elements
-    elif len(list_to_remove_elements)>0 and list_to_remove_elements<=4:
+    elif len(list_to_remove_elements)>0 and len(list_to_remove_elements)<=4:
         del list_to_remove_elements[0]
         return list_to_remove_elements
     else: 
