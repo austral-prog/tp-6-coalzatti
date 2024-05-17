@@ -18,27 +18,24 @@ list1=['Red', 'Green', 'White', 'Black', 'Pink','yellow']
 
 
 def add_elements(list_to_add_elements):
-    list2=['Red', 'Green', 'White', 'Black']
     list_to_add_elements.insert(0,'Pink')
     list_to_add_elements.append('Yellow')
     return list_to_add_elements
+list2=['Red', 'Green', 'White', 'Black']
 
 
     
 
 def is_empty(list_to_check):
-    lista3=[]
     if list_to_check==[]:
         return "La lista esta vacia"
     else:
         return "La lista no esta vacia"
- 
+ lista3=[]
 
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-    list4=['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
-    list5=['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
     if len(list_to_compare1)>=3 and len(list_to_compare2)>=3:
         if list_to_compare1[2]==list_to_compare2[2]:
             return 'True'
@@ -48,12 +45,12 @@ def check_lists(list_to_compare1, list_to_compare2):
         return 'False'
     else:
         return 'False'
-
+    list4=['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
+    list5=['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
 
 
 
 def list_of_lists(list_of_lists_to_modify):
-    list6=[[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
     if len(list_of_lists_to_modify)>2:
         if len(list_of_lists_to_modify[0])>=1:
             el1=list_of_lists_to_modify[0][0:2]
@@ -68,3 +65,4 @@ def list_of_lists(list_of_lists_to_modify):
     else:
         el3=[]
         return [el1,el2,el3]
+list6=[[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
