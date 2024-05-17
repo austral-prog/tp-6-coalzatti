@@ -13,7 +13,7 @@ def remove_elements(list_to_remove_elements):
     elif len(list_to_remove_elements)>0 and list_to_remove_elements<=4:
         del list_to_remove_elements[0]
         return list_to_remove_elements
-list1=['Red', 'Green', 'White', 'Black', 'Pink','yellow']
+    list1=['Red', 'Green', 'White', 'Black', 'Pink','yellow']
 
 
 
@@ -21,7 +21,7 @@ def add_elements(list_to_add_elements):
     list_to_add_elements.insert(0,'Pink')
     list_to_add_elements.append('Yellow')
     return list_to_add_elements
-list2=['Red', 'Green', 'White', 'Black']
+    list2=['Red', 'Green', 'White', 'Black']
 
 
     
@@ -31,7 +31,7 @@ def is_empty(list_to_check):
         return "La lista esta vacia"
     else:
         return "La lista no esta vacia"
- lista3=[]
+     lista3=[]
 
 
 
@@ -45,8 +45,8 @@ def check_lists(list_to_compare1, list_to_compare2):
         return 'False'
     else:
         return 'False'
-    list4=['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
-    list5=['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
+        list4=['Black', 'Pink', 'Yellow', 'Red', 'Green', 'White']
+        list5=['Red', 'Green', 'Yellow', 'White', 'Black', 'Pink']
 
 
 
@@ -65,4 +65,4 @@ def list_of_lists(list_of_lists_to_modify):
     else:
         el3=[]
         return [el1,el2,el3]
-list6=[[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
+    list6=[[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
